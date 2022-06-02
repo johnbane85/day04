@@ -18,7 +18,8 @@ public class ReaderMain {
     while(line != null) {
       line = br.readLine();
       lineNum++;
-      System.out.printf("%d: %s\n", lineNum, line.toUpperCase());
+      //System.out.printf("%d: %s\n", lineNum, line.toUpperCase());
+      System.out.printf("%d: %s\n", lineNum, line);
     }
   }
 }
